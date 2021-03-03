@@ -2,7 +2,7 @@
     "name": "server",
     "version": "1.0.0",
     "description": "production ready server",
-    "main": "server.js",
+        "main": "server.js",
     "scripts": {
         "server:dev": "set NODE_ENV=production && nodemon server.js",
         "server:prod": "node server.js",

@@ -29,7 +29,6 @@ if (process.env.NODE_ENV === 'production') {
     app.use(cors(corsOptions));
 }
 
-
 const quizRoutes = require('./api/quiz/quiz.routes')
 
 
