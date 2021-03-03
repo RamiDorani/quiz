@@ -1,0 +1,44 @@
+.question {
+    text-align: center;
+}
+
+.answer {
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10%;
+    width:100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.answer:hover {
+    background-color: darkgrey;
+}
+
+.question-card {
+    border: 1px solid black;
+    width:50vw;
+    min-height: 40vh;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 60px;
+}
+
+.link {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.main {
+    text-align: center;
+}
+
+.main-pic {
+    width: 30vw;
+}
+
+.rightAns {
+    background-color: rgb(56, 243, 56);
+}
