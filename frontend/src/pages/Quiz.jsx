@@ -10,7 +10,7 @@ export function Quiz() {
 
     useEffect(() => {
         getQuiz();
-    });
+    },[index]);
 
     const getQuiz = async () => {
         const singleQuest = await quizService.getById(index);
@@ -58,7 +58,6 @@ return (
             }}>4. {question.option4}</h3>
         </div>
             <Link to="/">Back To HomePage</Link>
-            {/* <QuestPreview question={question} /> */}
         </div>
     )
 }
